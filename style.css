@@ -30,3 +30,34 @@ body{
     justify-items: center;
     align-items: center;
 }
+.jogadores{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.jogadores div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #b8f947;
+}
+
+.tab{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    background-color: #e9351d;
+    grid-gap: 5px;
+    padding: 10px;
+}
+.tab div{
+    background-color: #8f8d8d;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #000;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
