@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8e8989;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d3d540;
+    justify-content: flex-start;
+    align-items: center;
+}
+.titulo{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
